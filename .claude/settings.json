@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(./**)",
+      "Bash(gh repo:*)",
+      "Bash(sort:*)",
+      "Bash(head:*)",
+      "Bash(jq:*)",
+      "Bash(grep:*)",
+      "Bash(date:*)"
+    ],
+    "ask": ["Write", "Edit"],
+    "deny": ["Read(./.env)", "Read(./.env.*)", "Read(./secrets/**)"]
+  }
+}
